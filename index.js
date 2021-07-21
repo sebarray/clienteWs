@@ -1,5 +1,5 @@
 
-const ws= new WebSocket('ws://ws--go.herokuapp.com/ws')
+const ws= new WebSocket('wss://ws--go.herokuapp.com/ws')
 ws.onopen=()=>{
     console.log("conecctado")
 }
