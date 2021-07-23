@@ -9,7 +9,7 @@ ws.onerror=(e)=>{
 ws.onmessage=(e)=>{
     console.log(e.data);
     h=document.createElement('div')
-    h.innerHTML=` <h3> ${e.data}</h3> `
+    h.innerHTML=` <p class="text-white"> ${e.data}</p> `
     document.getElementById('b').appendChild(h)
 }
  enviar.addEventListener('click',(e)=>{

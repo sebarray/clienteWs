@@ -1,0 +1,17 @@
+*
+{
+    margin:0;
+    padding:0;
+
+}
+
+#b{
+    height: 90vh;
+}
+#con{
+    height:100vh
+}
+
+.bo{
+border-radius: 20px;
+}
