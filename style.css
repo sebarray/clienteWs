@@ -4,19 +4,26 @@
     padding:0;
 
 }
-
+.f{
+    display:flex;
+    flex-direction: row;
+  align-items:flex-end;
+    
+}
 body {
     background-image: url("./img/fondo.jpg");
 
     background-size: 100vw;
 }
 #b{
-    height: 90vh;
+ 
 }
 #con{
-    height:100vh
+    height:93vh
 }
-
+#b{
+    overflow:auto;
+}
 .bo{
 border-radius: 20px;
 }
