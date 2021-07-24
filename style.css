@@ -5,6 +5,11 @@
 
 }
 
+body {
+    background-image: url("./img/fondo.jpg");
+
+    background-size: 100vw;
+}
 #b{
     height: 90vh;
 }
@@ -14,4 +19,10 @@
 
 .bo{
 border-radius: 20px;
+}
+
+
+.colorb{
+
+    background-color: rgba(20,20,20,0.6)
 }
